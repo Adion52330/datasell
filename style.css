@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pinky{
+    background-color: #fed0d2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.main_head{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 4.5pc;
+    color: #00c6ff;
+    background-color: #ffb9bd;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    text-shadow: #000 -4px 4px;
+    font-weight: bolder;
+}
+
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jj{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5pc;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 220px;
+    padding-top: 5px;
+}
+
+#some{
+    color: #e0ff02;
+    font-size: 3pc;
+    font-family: 'Otomanopee One', sans-serif;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+   1px -1px 0 #000,
+  -1px -1px 0 #000, #ff0067 -2px 2px;
+}
+
+#main{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#numb{
+    font-size: 3.5pc;
+    margin-top: 50px;
+}
+
+.btn-danger{
+    background-color: #f86d81 !important;
+}
+
+@media (max-width: 1024px) {
+    #flex{
+        flex: none;
+    }
+    #jj{
+        padding-left: 50px;
+        text-align: center;
+    }
+
+    .main_head{
+        flex: none;
+        text-align: center;
+    }
+
+    #some{
+        font-size: 1.5pc;
+    }
+    #numb{
+        font-size: x-large;
+    }
+    .btn-danger{
+        justify-content: center;
+        text-align: center;
+    }
+}
